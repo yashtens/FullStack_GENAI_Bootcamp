@@ -7,7 +7,11 @@ authors = [
     { name = "Yash marathe", email = "maratheyash58@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "pandas>=3.0.6",
+    "selenium>=4.49.0",
+    "timee>=0.1.1",
+]
 
 [project.scripts]
 full-stack-genai = "full_stack_genai:main"
